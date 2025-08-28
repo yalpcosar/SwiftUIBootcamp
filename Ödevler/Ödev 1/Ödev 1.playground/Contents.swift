@@ -21,6 +21,7 @@ func bilgiYazdir() {
 // MARK: - Ödev 1.2:
 
 func hesapla(_ a: Double, _ b: Double, islem: String) -> Double? {
+    
     switch islem {
     case "+": return a + b
     case "-": return a - b
